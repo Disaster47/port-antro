@@ -11,7 +11,7 @@ import lgZoom from "lightgallery/plugins/zoom";
 
 // ✅ สร้าง array ของ path รูปภาพอัตโนมัติ (แก้ตรงนี้แทนเขียนทีละรูป)
 const imageList = Array.from(
-  { length: 61 },
+  { length: 65 },
   (_, i) => `/port/social/${i + 1}.avif`
 );
 
